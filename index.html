@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Image Slider</title>
+    <link rel="stylesheet" href="css/Create Image Slider.css" />
+  </head>
+  <body>
+    <section class="slider-container" aria-label="Image Slider">
+      <div id="slide-number" class="slide-number" role="status">
+        Slide #1 of 7
+      </div>
+      <img src="img/cat.1.jpg" alt="Cat Image 1" />
+      <img src="img/cat.2.jpg" alt="Cat Image 2" />
+      <img src="img/cat.3.jpg" alt="Cat Image 3" />
+      <img src="img/cat.4.jpg" alt="Cat Image 4" />
+      <img src="img/cat.5.jpg" alt="Cat Image 5" />
+      <img src="img/cat.6.jpg" alt="Cat Image 6" />
+      <img src="img/cat.7.jpg" alt="Cat Image 7" />
+    </section>
+    <div class="slider-controls" aria-label="Slider Navigation Controls">
+      <button id="prev" class="prev" aria-label="Previous Slide">
+        Previous
+      </button>
+      <div id="indicators" class="indicators" role="tablist"></div>
+      <button id="next" class="next" aria-label="Next Slide">Next</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
